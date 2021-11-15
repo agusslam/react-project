@@ -1,0 +1,43 @@
+.wrapper-sign {
+    width: 300px;
+    margin-top: 18%;
+    margin-left: 35%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    border: none;
+    background-color: cadetblue;
+    color: black;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.btn-submit:hover {
+    border: none;
+    background-color: cadetblue;
+    color: rgba(0, 0, 0,0.2);
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-submit:disabled {
+    border: none;
+    background-color: gray;
+    color: rgba(0, 0, 0,0.2);
+    padding: 10px 20px;
+    outline: none;
+    cursor: not-allowed;
+}
+
+
